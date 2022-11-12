@@ -175,7 +175,6 @@ section{
     display:flex;
     justify-content: center;
 }
-#home{padding-top: 100px;}
 #about{background-color: lightgrey; height: auto;}
 #projects{
     background-color: lightgray; height: auto;;
