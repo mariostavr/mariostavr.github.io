@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Portfolio</title>
+        <link rel="icon" href="Images/ms_w.ico" type="logo/x-ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- ============================ Sidebar/menu ============================ -->
+        <nav class="sidebar animate-left collapse" id="mySidebar">
+            <img src="Images/Profile.jpg" class="rounded-circle" height=100 width=100 alt="Profile">
+            <h3>Marios Stavrou </h3>
+
+            <div class="social" >
+                <a href="https://www.facebook.com/marios.stavrou34/" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/mxriostavr/" class="fa fa-instagram"></a>
+                <a href="https://github.com/mariostavr" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/mariostavrou/in" class="fa fa-linkedin"></a>
+            </div>
+            <div class="container">
+                <ul>
+                    <li class="home active"><a href="#home" onclick="w3_close()"><i class="fa fa-home padding-10"></i>Home</a></li>
+                    <li class="about "><a href="#about" onclick="w3_close()" ><i class="fa fa-user padding-10" ></i>About</a></li>
+                    <li class="projects"><a href="#projects" onclick="w3_close()"><i class="fa fa-book padding-10"></i>Projects</a></li> 
+                    <li class="contact"><a href="#contact" onclick="w3_close()"><i class="fa fa-envelope padding-10"></i>Contact</a></li> 
+                </ul>
+            </div>
+            <div class="navfooter" style="font-size: small;";>
+                <p>Copyright &copy; Marios Stavrou</p>
+            </div>
+        </nav>
+        <!-- ====================================================================== -->
+
+
+        <!-- ============================= Top Navbar ============================= -->
+        <header class="hide-large">
+            <span class="left padding">Marios Stavrou</span>
+            <a href="javascript:void(0)" class="right white" style="padding-right:20px;color: black;text-decoration: none;" onclick="w3_open()">☰</a>
+        </header>
+        <!-- ====================================================================== -->
+
+
+        <!-- ============================= Animations ============================= -->
+        <div class="overlay hide-large animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+        <!-- ====================================================================== -->
+
+
+        <!-- ============================== Contents ============================== -->
+        <div class="noSidebar" style="margin-left:300px">
+
+            <!-- ======================== SECTION 1: HOME ========================= -->
+            <section id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p style=font-size:50px><b>Marios Stavrou</b></p>
+                            <p style=font-size:30px>Software Engineering</p>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="animate-fadeIn center" >
+                                <img src="Images/ms.png" alt="logo" height=600px width=450px>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================================================== -->
+
+            <!-- ======================== SECTION 2: ABOUT ======================== -->
+            <section id="about">
+                <div class="container padding-top padding-bottom">
+                    <h2>About Me</h2><br>
+                        <blockquote>Creating something special requires attention to detail. 
+                            I am hardworking, ambitious and have a great passion for programming, 
+                            along with a willingness to learn new skills and expand my knowledge to achieve an effective outcome. Able to work independently in busy and team 
+                            environments. I am quick-witted and a good listener when it comes 
+                            to solving problems.
+                        </blockquote><br>
+                    <div class="row">
+                        <div class="col-xl-4 padding-bottom-prof">
+                            <img style="filter:grayscale(100%)" src="Images/Profile.jpg" alt="profile" width="300" height="300">
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-xl-3" >
+                                    <h4>Education:</h4>
+                                </div>
+                                <div class="col">
+                                    <p>Electrical and Computer Engineering<br>
+                                        Aristotle University of Thessaloniki - Greece
+                                    </p>
+                                    <p>Currently working on my thesis.</p>
+                                </div>
+                            </div><br>
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h4>Languages:</h4>
+                                </div>
+                                <div class="col">
+                                    <p>Greek</p>
+                                    <p>English</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <a href="pdfs/Curriculum Vitae.pdf" class=button-cv><i class="fa fa-download padding-10"></i>Download Resume</a>
+                        </div>
+                        <div class="col-xl-4"><br>
+                            <h4>Skills:</h4>
+                            <ul>
+                                <li>Object Oriented Programming</li>
+                                <li>Parallel Programming</li>
+                                <li>OpenMP</li> 
+                                <li>MPI</li>
+                                <li>CUDA</li>
+                                <li>SQL</li>
+                                <li>Problem Solving</li> 
+                                <li>Machine Learning</li>
+                                <li>Java/C/C++</li>
+                                <li>MATLAB</li>
+                                <li>Python</li> 
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-4"><br>
+                            <h4>Hobbies and Interests:</h4>
+                            <ul>
+                                <li>Adobe Photoshop</li>
+                                <li>NFTs</li>
+                                <li>PC Building</li> 
+                                <li>Traveling</li> 
+                                <li>Listening to music</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ================================================================== -->
+
+            <!-- ====================== SECTION 3: PROJECTS ======================= -->
+            <section id="projects">
+                <div class="container padding-bottom padding-top"> 
+                    <h2>Projects</h2><br>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/Java_Network_Socket_Programming"><div class="circle"><h5>Java Network Socket Programming</h5></div></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/Java_Serial_Communications"><div class="circle"><h5>Java Serial Communications</h5></div></a>
+                        </div>
+                        <div class="col">
+                            <a href="https://drive.google.com/drive/folders/1UQW0qedGkf4wRwCSJrLM2tjOQoA1rXrb"><div class="circle"><h5>Sportnet</h5></div></a>   
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/k_Nearest_Neighbor"><div class="circle"><h5>k Nearest Neighbor</h5></div></a>             
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/Non_Local_Means"><div class="circle"><h5>Non Local Means</h5></div></a>         
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/Boolean_Matrix_Multiplication"><div class="circle"><h5>Boolean Matrix Multiplication</h5></div></a>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col">
+                            <a href="https://github.com/mariostavr/Crypto_Database"><div class="circle"><h5>Crypto Database</h5></div></a>          
+                        </div>
+                    </div><br>
+                </div>
+            </section>
+            <!-- ================================================================== -->
+
+            <!-- ======================= SECTION 4: CONTACT ======================= -->
+            <section id="contact">
+                <div class="container">
+                    <h2>Contact</h2><br>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <p><i class="fa fa-home padding-10" ></i>Larnaca, Cyprus</p>
+                            <p><i class="fa fa-phone padding-10" ></i>+357 99597132</p>
+                            <p><a href="mailto:mariostavrou34@gmail.com"><i class="fa fa-google padding-10" ></i>mariostavrou34@gmail.com</a></p>
+                            <p><a href="mailto:mariostavr@hotmail.com"><i class="fa fa-envelope padding-10" ></i>mariostavr@hotmail.com</a></p>
+                        </div>
+                        <div class="col-sm-9">
+                            <img src="Images/cover.png" alt="cover" height="150px" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ================================================================== -->
+
+        <!-- ====================================================================== Scripts -->
+        <!-- ======================= Open/Close Sidebar ======================= -->
+        <script>
+            function w3_open() {
+              document.getElementById("mySidebar").style.display = "block";
+              document.getElementById("myOverlay").style.display = "block";
+            }
+
+            function w3_close() {
+              document.getElementById("mySidebar").style.display = "none";
+              document.getElementById("myOverlay").style.display = "none";
+            }
+        </script>
+        <!-- ================================================================== -->
+        <!-- ==================== Higlight Sidebar Section ==================== -->
+        <script src="javascript/scrollHighlight.js"></script>
+        <!-- ================================================================== -->
+        <!-- ============================================================================== -->
+
+    </body>
+</html>
