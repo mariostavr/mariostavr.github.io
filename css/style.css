@@ -186,7 +186,7 @@ section{
     display:flex;
     justify-content: center;
 }
-#home{height: 1100px;}
+#home{height: 1200px;}
 #about{background-color: lightgrey; height: auto;}
 #projects{
     background-color: lightgray; height: auto;;
