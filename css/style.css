@@ -179,8 +179,7 @@ header{
 
 /*========================================================= Sections */
 section{
-    position:sticky;
-    height: 100vh;
+
     color:black;
     align-items: center;
     display:flex;
