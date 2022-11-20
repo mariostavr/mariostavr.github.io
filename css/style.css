@@ -179,12 +179,13 @@ header{
 
 /*========================================================= Sections */
 section{
+    position: sticky;
+    height: 100vh;
     color:black;
     align-items: center;
     display:flex;
     justify-content: center;
 }
-#home{height: 1150px;}
 #about{background-color: lightgrey; height: auto;}
 #projects{
     background-color: lightgray; height: auto;;
