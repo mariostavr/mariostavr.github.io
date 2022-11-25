@@ -59,7 +59,9 @@
     width: 100%;
     height: auto;
 }
-.row:before, .row:after {display: none !important;}
+.row:before, .row:after{
+    display: inline-block !important;
+}
 .overlay{position:fixed;
     display:none;
     width:100%;
