@@ -232,6 +232,10 @@ section{
     color: #000;
     background-color: lightgray;
 }
+#contact{
+    height: 850px;
+}
+
 section a, a:hover{
     color: #000;
     text-decoration: none;
