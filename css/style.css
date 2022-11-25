@@ -60,7 +60,7 @@
     height: auto;
 }
 .row:before, .row:after{
-    display: inline-block !important;
+    width:0px; height:0px;
 }
 .overlay{position:fixed;
     display:none;
