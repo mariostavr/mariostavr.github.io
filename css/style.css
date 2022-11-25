@@ -55,6 +55,14 @@
     .hide-large{display:none!important}
     .sidebar.collapse{display:block!important}
 }
+@media screen and (min-width : 750px) {
+    #content{float:left;width:60%;}
+    #sidebar{float:right;width:35%}
+}
+@media screen and (min-width : 481px) and (max-width : 749px) {
+    #content{width:95%;}
+    #sidebar{width:95%;}    
+}
 .overlay{position:fixed;
     display:none;
     width:100%;
@@ -83,6 +91,7 @@ html{scroll-behavior: smooth;} /*-----------Scroll*/
 h2{ /*--------------------------------------Section Headers*/
     border-bottom: 2px solid rgb(144, 144, 144);
     padding-bottom: 5px;
+}
 a:active, a:focus, li:focus, li:active {
     outline: none !important;
     border: none !important;        
@@ -231,7 +240,7 @@ section{
     background-color: lightgray;
 }
 #contact{
-    height: 1100px;
+    height: 1050px;
 }
 
 section a, a:hover{
