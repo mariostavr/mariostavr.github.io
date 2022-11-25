@@ -59,8 +59,8 @@
     width: 100%;
     height: auto;
 }
-.row:before, .row:after{
-    width:0px; height:0px;
+.row:before, .row:after {
+    display: flex !important;
 }
 .overlay{position:fixed;
     display:none;
