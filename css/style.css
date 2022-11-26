@@ -102,6 +102,15 @@ a:active, a:focus, li:focus, li:active {
     -ms-user-select: none; /* IE10+ */
     user-select: none;
 }
+.rowsafari{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
 /*===================================================================*/
 
 
